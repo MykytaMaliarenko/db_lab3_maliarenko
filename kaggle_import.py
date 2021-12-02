@@ -104,8 +104,8 @@ def import_movies(cur):
 
 if __name__ == '__main__':
     conn = psycopg2.connect(
-        dbname='lab_2', user='admin',
-        password='12345', host='localhost'
+        dbname='lab3', user='admin',
+        password='secret123', host='127.0.0.1'
     )
 
     with conn.cursor(cursor_factory=psycopg2.extras.DictCursor) as cursor:
