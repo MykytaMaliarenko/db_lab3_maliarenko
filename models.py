@@ -27,6 +27,14 @@ class AbstractModel:
             cursor.execute(f'select * from {cls.TABLE_NAME}')
             return cursor.fetchall()
 
+    @classmethod
+    def export_all_as_csv(cls, connection) -> (List, List):
+        factor = psycopg2.extras.RealDictCursor
+        with connection.cursor(cursor_factory=factor) as cursor:
+            cursor.execute(f'select * from {cls.TABLE_NAME}')
+            data = cursor.fetchall()
+            return data[0].keys(), [instance.values() for instance in data]
+
 
 @dataclass
 class Genre(AbstractModel):
