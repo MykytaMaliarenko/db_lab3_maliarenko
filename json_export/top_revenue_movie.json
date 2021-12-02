@@ -1,0 +1,218 @@
+[
+    {
+        "id": 1,
+        "name": "Batman Forever",
+        "rating": "PG-13",
+        "total_revenue": 387522978,
+        "year": 1995,
+        "distributor_id": 2,
+        "genre_id": 3
+    },
+    {
+        "id": 2,
+        "name": "Independence Day",
+        "rating": "PG-13",
+        "total_revenue": 634504608,
+        "year": 1996,
+        "distributor_id": 5,
+        "genre_id": 1
+    },
+    {
+        "id": 3,
+        "name": "Men in Black",
+        "rating": "PG-13",
+        "total_revenue": 500207943,
+        "year": 1997,
+        "distributor_id": 3,
+        "genre_id": 1
+    },
+    {
+        "id": 4,
+        "name": "Titanic",
+        "rating": "PG-13",
+        "total_revenue": 865842808,
+        "year": 1998,
+        "distributor_id": 6,
+        "genre_id": 1
+    },
+    {
+        "id": 5,
+        "name": "Star Wars Ep. I: The Phantom Menace",
+        "rating": "PG",
+        "total_revenue": 776153749,
+        "year": 1999,
+        "distributor_id": 5,
+        "genre_id": 1
+    },
+    {
+        "id": 6,
+        "name": "How the Grinch Stole Christmas",
+        "rating": "PG",
+        "total_revenue": 430583644,
+        "year": 2000,
+        "distributor_id": 4,
+        "genre_id": 1
+    },
+    {
+        "id": 7,
+        "name": "Harry Potter and the Sorcerer\u2019s Stone",
+        "rating": "PG",
+        "total_revenue": 486166890,
+        "year": 2001,
+        "distributor_id": 2,
+        "genre_id": 1
+    },
+    {
+        "id": 8,
+        "name": "Spider-Man",
+        "rating": "PG-13",
+        "total_revenue": 636480273,
+        "year": 2002,
+        "distributor_id": 3,
+        "genre_id": 1
+    },
+    {
+        "id": 9,
+        "name": "Finding Nemo",
+        "rating": "G",
+        "total_revenue": 516050346,
+        "year": 2003,
+        "distributor_id": 1,
+        "genre_id": 1
+    },
+    {
+        "id": 10,
+        "name": "Shrek 2",
+        "rating": "PG",
+        "total_revenue": 650826473,
+        "year": 2004,
+        "distributor_id": 9,
+        "genre_id": 1
+    },
+    {
+        "id": 11,
+        "name": "Star Wars Ep. III: Revenge of the Sith",
+        "rating": "PG-13",
+        "total_revenue": 543413171,
+        "year": 2005,
+        "distributor_id": 5,
+        "genre_id": 2
+    },
+    {
+        "id": 12,
+        "name": "Pirates of the Caribbean: Dead Man\u2019s Chest",
+        "rating": "PG-13",
+        "total_revenue": 591995851,
+        "year": 2006,
+        "distributor_id": 1,
+        "genre_id": 2
+    },
+    {
+        "id": 13,
+        "name": "Spider-Man 3",
+        "rating": "PG-13",
+        "total_revenue": 448054878,
+        "year": 2007,
+        "distributor_id": 3,
+        "genre_id": 1
+    },
+    {
+        "id": 14,
+        "name": "The Dark Knight",
+        "rating": "PG-13",
+        "total_revenue": 677433772,
+        "year": 2008,
+        "distributor_id": 2,
+        "genre_id": 1
+    },
+    {
+        "id": 15,
+        "name": "Transformers: Revenge of the Fallen",
+        "rating": "PG-13",
+        "total_revenue": 491112631,
+        "year": 2009,
+        "distributor_id": 6,
+        "genre_id": 2
+    },
+    {
+        "id": 16,
+        "name": "Toy Story 3",
+        "rating": "G",
+        "total_revenue": 481805411,
+        "year": 2010,
+        "distributor_id": 1,
+        "genre_id": 2
+    },
+    {
+        "id": 17,
+        "name": "Harry Potter and the Deathly Hallows: Part II",
+        "rating": "PG-13",
+        "total_revenue": 440108798,
+        "year": 2011,
+        "distributor_id": 2,
+        "genre_id": 2
+    },
+    {
+        "id": 18,
+        "name": "The Avengers",
+        "rating": "PG-13",
+        "total_revenue": 717331462,
+        "year": 2012,
+        "distributor_id": 1,
+        "genre_id": 1
+    },
+    {
+        "id": 19,
+        "name": "Iron Man 3",
+        "rating": "PG-13",
+        "total_revenue": 460808016,
+        "year": 2013,
+        "distributor_id": 1,
+        "genre_id": 1
+    },
+    {
+        "id": 20,
+        "name": "Guardians of the Galaxy",
+        "rating": "PG-13",
+        "total_revenue": 373413235,
+        "year": 2014,
+        "distributor_id": 1,
+        "genre_id": 1
+    },
+    {
+        "id": 21,
+        "name": "Star Wars Ep. VII: The Force Awakens",
+        "rating": "PG-13",
+        "total_revenue": 806480887,
+        "year": 2015,
+        "distributor_id": 1,
+        "genre_id": 2
+    },
+    {
+        "id": 22,
+        "name": "Finding Dory",
+        "rating": "PG",
+        "total_revenue": 514967322,
+        "year": 2016,
+        "distributor_id": 1,
+        "genre_id": 2
+    },
+    {
+        "id": 23,
+        "name": "Star Wars Ep. VIII: The Last Jedi",
+        "rating": "PG-13",
+        "total_revenue": 528173936,
+        "year": 2017,
+        "distributor_id": 1,
+        "genre_id": 2
+    },
+    {
+        "id": 24,
+        "name": "Black Panther",
+        "rating": "PG-13",
+        "total_revenue": 703901821,
+        "year": 2018,
+        "distributor_id": 1,
+        "genre_id": 2
+    }
+]

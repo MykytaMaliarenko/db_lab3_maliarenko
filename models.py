@@ -1,5 +1,7 @@
+import psycopg2.extras
+import psycopg2
 from dataclasses import dataclass, fields
-from typing import ClassVar, Any
+from typing import ClassVar, Any, List, Dict
 
 
 @dataclass
@@ -17,6 +19,13 @@ class AbstractModel:
         column_names = [field.name for field in fields(self.__class__) if field.name != 'id']
         values = [self.default_sql_repr(getattr(self, column)) for column in column_names]
         return f'insert into {self.TABLE_NAME} ({",".join(column_names)}) values ({",".join(values)})'
+
+    @classmethod
+    def export_all_as_json(cls, connection) -> List[Dict]:
+        factor = psycopg2.extras.RealDictCursor
+        with connection.cursor(cursor_factory=factor) as cursor:
+            cursor.execute(f'select * from {cls.TABLE_NAME}')
+            return cursor.fetchall()
 
 
 @dataclass

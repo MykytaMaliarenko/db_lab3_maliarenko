@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Walt Disney",
+        "movies_number": 588,
+        "market_share": "17.020"
+    },
+    {
+        "id": 2,
+        "name": "Warner Bros.",
+        "movies_number": 824,
+        "market_share": "15.250"
+    },
+    {
+        "id": 3,
+        "name": "Sony Pictures",
+        "movies_number": 747,
+        "market_share": "12.240"
+    },
+    {
+        "id": 4,
+        "name": "Universal",
+        "movies_number": 535,
+        "market_share": "11.810"
+    },
+    {
+        "id": 5,
+        "name": "20th Century Fox",
+        "movies_number": 525,
+        "market_share": "10.880"
+    },
+    {
+        "id": 6,
+        "name": "Paramount Pictures",
+        "movies_number": 493,
+        "market_share": "10.250"
+    },
+    {
+        "id": 7,
+        "name": "Lionsgate",
+        "movies_number": 426,
+        "market_share": "4.050"
+    },
+    {
+        "id": 8,
+        "name": "New Line",
+        "movies_number": 209,
+        "market_share": "2.610"
+    },
+    {
+        "id": 9,
+        "name": "Dreamworks SKG",
+        "movies_number": 77,
+        "market_share": "1.800"
+    },
+    {
+        "id": 10,
+        "name": "Miramax",
+        "movies_number": 385,
+        "market_share": "1.610"
+    }
+]

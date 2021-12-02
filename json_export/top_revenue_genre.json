@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Adventure",
+        "movies_number": 1102,
+        "market_share": "27.140"
+    },
+    {
+        "id": 2,
+        "name": "Action",
+        "movies_number": 1098,
+        "market_share": "20.750"
+    },
+    {
+        "id": 3,
+        "name": "Drama",
+        "movies_number": 5479,
+        "market_share": "14.970"
+    },
+    {
+        "id": 4,
+        "name": "Comedy",
+        "movies_number": 2418,
+        "market_share": "14.170"
+    },
+    {
+        "id": 5,
+        "name": "Thriller/Suspense",
+        "movies_number": 1186,
+        "market_share": "8.330"
+    },
+    {
+        "id": 6,
+        "name": "Horror",
+        "movies_number": 716,
+        "market_share": "5.650"
+    },
+    {
+        "id": 7,
+        "name": "Romantic Comedy",
+        "movies_number": 630,
+        "market_share": "4.410"
+    },
+    {
+        "id": 8,
+        "name": "Musical",
+        "movies_number": 201,
+        "market_share": "1.810"
+    },
+    {
+        "id": 9,
+        "name": "Documentary",
+        "movies_number": 2415,
+        "market_share": "1.060"
+    },
+    {
+        "id": 10,
+        "name": "Black Comedy",
+        "movies_number": 213,
+        "market_share": "0.920"
+    }
+]
